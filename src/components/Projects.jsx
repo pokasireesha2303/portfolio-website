@@ -30,7 +30,7 @@ function Projects() {
             <p className="text-gray-600 text-sm">{project.description}</p>
             {project.github && (
               
-                href={project.github}
+                <a href={project.github}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 text-sm mt-2 inline-block hover:underline"
