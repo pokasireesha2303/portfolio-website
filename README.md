@@ -1,16 +1,35 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A personal portfolio website built with React, Vite, and Tailwind CSS, showcasing my skills, experience, education, projects, and achievements.
 
-Currently, two official plugins are available:
+## Live Demo
+https://portfolio-website-pokasireesha.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Hero section with intro and bio
+- Skills section with categorized tech stack
+- Education section with academic history
+- Experience section with volunteer and event roles
+- Projects section showcasing all three projects with GitHub and live links
+- Achievements section listing academic and extracurricular accomplishments
+- Quick stats sidebar (CGPA, JEE AIR, Hackathons, Contributions)
+- Contact info sidebar with email, LinkedIn, and GitHub
 
-## React Compiler
+## Tech Stack
+- React
+- Vite
+- Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Projects Showcased
+- Stockfolio - Full-stack MERN stock portfolio tracker (https://stockfolio-woad.vercel.app)
+- Cryptocurrency Wallet Web Application
+- Maths Wizard - Ranked top 20 in HackFest 2025
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Setup Instructions
+1. Clone the repository:
+   git clone https://github.com/pokasireesha2303/portfolio-website.git
+2. Install dependencies:
+   npm install
+3. Start the dev server:
+   npm run dev
+4. Open http://localhost:5173 in your browser
