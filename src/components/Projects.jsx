@@ -1,6 +1,12 @@
 function Projects() {
   const projects = [
     {
+      title: "Stockfolio - Stock Portfolio Tracker",
+      tech: "React, Node.js, Express, MongoDB, JWT",
+      description: "Full-stack MERN stock tracker with live prices.",
+      github: "https://github.com/pokasireesha2303/stockfolio",
+    },
+    {
       title: "Cryptocurrency Wallet Web Application",
       tech: "HTML, CSS, Firebase Auth, Firestore, JavaScript",
       description:
